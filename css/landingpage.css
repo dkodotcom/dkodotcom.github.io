@@ -1,0 +1,107 @@
+
+.marquee {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display:flex;
+	flex-direction: row;
+	-ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.marquee__image {
+	max-width: 100%;
+	max-height: auto;
+	background-size: cover; /*or can try 100%*/
+	background-image: url(../img/Profile.JPG);
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.marquee__text {
+	max-width: 100%;
+	max-height: auto;
+	justify-content: center;
+	padding: 60px 30px;
+	flex-basis: 0;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.marquee__text p {
+	line-height: 1.5em;
+}
+
+h1 {
+	margin: 0;
+	color: #d4aa42;
+	font-family: 'Alegreya', serif;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 3em;
+}
+
+#social-media-list {
+	width: 100%;
+	list-style: none;
+	
+}
+
+li {
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 0px 5px;
+}
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #d4aa42;
+}
+
+/* this is rose pink 
+#ffd2d1
+#ffded1
+#ffdad1
+#ffdad1
+
+// this is mustard yellow 
+#d4aa42
+#d8b152
+#dbb862
+
+//this is royal blue if the background is very light gray 
+#0e0c56
+#11106c
+
+// this is teal blue, aqua 
+#88eabb
+#72e6af
+
+*/
+
+
